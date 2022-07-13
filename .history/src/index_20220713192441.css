@@ -18,6 +18,9 @@ ul {
   justify-content: center;
   align-items: center;
 }
+.site-card-wrapper {
+  margin: 0 auto !important;
+}
 .flex {
   display: flex;
   flex-direction: column;

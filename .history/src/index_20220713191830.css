@@ -30,13 +30,6 @@ ul {
   margin: 10px !important;
   gap: 10px !important;
 }
-.ant-card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
 .searchBar {
   width: 50% !important;
   margin: 20px !important;

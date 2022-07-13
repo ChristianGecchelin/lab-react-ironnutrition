@@ -6,7 +6,7 @@ const FoodBox = (props) => {
   };
   return (
     <Col span={8}>
-      <Card title={food.name} key={food.name} bordered={true}>
+      <Card title={food.name} key={food.name} bordered={false}>
         <img src={food.image} width={200} alt="hola" />
         <p>Calories: {food.calories}</p>
         <p>Servings: {food.servings}</p>

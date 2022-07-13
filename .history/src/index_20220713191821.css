@@ -28,14 +28,7 @@ ul {
   padding: 10px;
   height: 500px;
   margin: 10px !important;
-  gap: 10px !important;
-}
-.ant-card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+  gap: 30px !important;
 }
 .searchBar {
   width: 50% !important;

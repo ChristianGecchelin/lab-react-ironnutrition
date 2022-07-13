@@ -5,8 +5,8 @@ const FoodBox = (props) => {
     deleteFood(food);
   };
   return (
-    <Col span={8}>
-      <Card title={food.name} key={food.name} bordered={true}>
+    <Col span={8} className="flex">
+      <Card title={food.name} key={food.name} bordered={false} className="flex">
         <img src={food.image} width={200} alt="hola" />
         <p>Calories: {food.calories}</p>
         <p>Servings: {food.servings}</p>

@@ -21,7 +21,6 @@ ul {
 .flex {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap !important;
   justify-content: center;
   align-items: center;
   border: 2px solid black;
